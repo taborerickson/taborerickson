@@ -1,6 +1,6 @@
 # Tabor Erickson
 
-Data professional working at the intersection of **data engineering**, **ETL pipeline development**, and **data governance**. I build production-grade data systems in Python, SQL, and apply a structured, systems-oriented approach to AI-assisted development. 
+Data professional working at the intersection of **data engineering**, **ETL pipeline development**, **analytics engineering**, and **data governance**. I build production-grade data systems in Python, SQL, and apply a structured, systems-oriented approach to AI-assisted development. 
 
 Currently leading the development of an enterprise data governance program from the ground up at Willow Bridge Property Company, while building a reusable Python ETL framework and related data engineering projects independently. 
 
@@ -10,8 +10,11 @@ Currently leading the development of an enterprise data governance program from 
 
 ## Featured Projects 
 
-**[python-etl-framework](https://github.com/taborerickson/python-etl-framework)** *(In Progress)*
+**[python-etl-framework](https://github.com/taborerickson/python-etl-framework)** 
 Reusable, installable Python ETL framework for production-grade data ingestion: abstract base class extractors (Template Method pattern), custom exception hierarchy, retry-with-backoff decorator, Pydantic config validation, and structured logging.
+
+**[dbt-ecommerce-analytics](https://github.com/taborerickson/dbt-ecommerce-analytics)**
+Staging-to-marts analytics model using dbt Core, dimensional modeling, star schema design, testing, documentation, and lineage generation to transform a public e-commerce dataset on Google BigQuery. Applies analytics engineering best practices for maintainable cloud data warehousing by modeling a star schema at the order line-item grain and applying analytics engineering conventions for model naming, layer separation, and non-duplication. 
 
 **[fraud_detection_platform](https://github.com/taborerickson/fraud_detection_platform)**
 End-to-end fraud detection platform: Airflow-orchestrated ETL, PostgreSQL warehouse, feature engineering, model training, FastAPI serving, and Streamlit monitoring. Fully Dockerized.
