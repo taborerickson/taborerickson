@@ -1,6 +1,6 @@
 # Tabor Erickson
 
-Data professional working at the intersection of **data engineering**, **ETL pipeline development**, **analytics engineering**, and **data governance**. I build production-grade data systems in Python, SQL, and apply a structured, systems-oriented approach to AI-assisted development. 
+Data engineering and analytics professional working at the intersection of **data engineering**, **ETL pipeline development**, **analytics engineering**, and **data governance**. I build production-grade data systems in Python, SQL, and apply a structured, systems-oriented approach to AI-assisted development. 
 
 Currently leading the development of an enterprise data governance program from the ground up at Willow Bridge Property Company, while building a reusable Python ETL framework and related data engineering projects independently. 
 
