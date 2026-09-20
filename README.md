@@ -11,7 +11,7 @@ Currently leading the development of an enterprise data governance program from 
 ## Featured Projects 
 
 **[python-etl-framework](https://github.com/taborerickson/python-etl-framework)** 
-Reusable, installable Python ETL framework for production-grade data ingestion: abstract base class extractors (Template Method pattern), custom exception hierarchy, retry-with-backoff decorator, Pydantic config validation, and structured logging.
+Reusable, installable Python ETL framework for production-grade data ingestion with abstract base class extractors, custom exceptions, retry-with-backoff, Pydantic validation, and structured logging. Pull requests targeting `main` are gated by GitHub Actions CI running Ruff and the full 91-test suite on Python 3.11 and 3.12 with a 95% minimum branch-coverage threshold.
 
 **[dbt-ecommerce-analytics](https://github.com/taborerickson/dbt-ecommerce-analytics)**
 Staging-to-marts analytics model using dbt Core, dimensional modeling, star schema design, testing, documentation, and lineage generation to transform a public e-commerce dataset on Google BigQuery. Applies analytics engineering best practices for maintainable cloud data warehousing by modeling a star schema at the order line-item grain and applying analytics engineering conventions for model naming, layer separation, and non-duplication. 
@@ -37,6 +37,11 @@ End-to-end churn prediction pipeline: ingestion, feature engineering, model deve
 ![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
+**Testing & CI**
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?stle=flat-square&logo=githubactions&logoColor=white)
+![pytest](https://img.shields.io/badge/-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Ruff](https://img.shields.io/badge/-Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black)
+
 **Data Engineering & Infrastructure**
 ![Airflow](https://img.shields.io/badge/-Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
@@ -50,6 +55,7 @@ End-to-end churn prediction pipeline: ingestion, feature engineering, model deve
 
 **AI-Augmented Development**
 ![Claude](https://img.shields.io/badge/-Claude-D97757?style=flat-square)
+![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![GitHub Copilot](https://img.shields.io/badge/-GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white)
 
 --- 
