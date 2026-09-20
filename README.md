@@ -1,6 +1,6 @@
 # Tabor Erickson
 
-Data engineering and analytics professional working at the intersection of **data engineering**, **ETL pipeline development**, **analytics engineering**, and **data governance**. I build production-grade data systems in Python, SQL, and apply a structured, systems-oriented approach to AI-assisted development. 
+Data engineering and analytics professional working at the intersection of **data engineering**, **ETL pipeline development**, **analytics engineering**, and **data governance**. I build production-grade data systems in Python, SQL, and I apply a structured, systems-oriented approach to AI-assisted development. 
 
 Currently leading the development of an enterprise data governance program from the ground up at Willow Bridge Property Company, while building a reusable Python ETL framework and related data engineering projects independently. 
 
@@ -14,13 +14,13 @@ Currently leading the development of an enterprise data governance program from 
 Reusable, installable Python ETL framework for production-grade data ingestion with abstract base class extractors, custom exceptions, retry-with-backoff, Pydantic validation, and structured logging. Pull requests targeting `main` are gated by GitHub Actions CI running Ruff and the full 91-test suite on Python 3.11 and 3.12 with a 95% minimum branch-coverage threshold.
 
 **[dbt-ecommerce-analytics](https://github.com/taborerickson/dbt-ecommerce-analytics)**
-Staging-to-marts analytics model using dbt Core, dimensional modeling, star schema design, testing, documentation, and lineage generation to transform a public e-commerce dataset on Google BigQuery. Applies analytics engineering best practices for maintainable cloud data warehousing by modeling a star schema at the order line-item grain and applying analytics engineering conventions for model naming, layer separation, and non-duplication. 
+Staging-to-marts analytics model using dbt Core and Google BigQuery to transform a public e-commerce dataset into documented, tested star-schema marts at the order line-item grain. Demonstrates dimensional modeling, data-quality testing, lineage, layer separation, and maintainable analytics-engineering conventions. 
 
 **[fraud_detection_platform](https://github.com/taborerickson/fraud_detection_platform)**
 End-to-end fraud detection platform: Airflow-orchestrated ETL, PostgreSQL warehouse, feature engineering, model training, FastAPI serving, and Streamlit monitoring. Fully Dockerized.
 
 **[GTM_Context_Store](https://github.com/taborerickson/GTM_Context_Store)**
-Turns fragmented go-to-market operational data into clean, structured, AI-ready context, layered pipeline (raw → validated → staged → business models) with a FastAPI service and Streamlit dashboard.
+Turns fragmented go-to-market operational data into clean, structured, AI-ready context through a layered pipeline (raw → validated → staged → business models), with a FastAPI service and Streamlit dashboard.
 
 **[Sensor-Anomaly-Detection](https://github.com/taborerickson/Sensor-Anomaly-Detection)**
 IoT sensor anomaly detection and health scoring using statistical methods (MAD-based z-scores, IQR) and missing-data pattern analysis.
@@ -47,6 +47,10 @@ End-to-end churn prediction pipeline: ingestion, feature engineering, model deve
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+**Analytics Engineering & Warehousing**
+![dbt](https://img.shields.io/badge/-dbt-FF694B?style=flat-square&logo=dbt&logoColor=white)
+![Google BigQuery](https://img.shields.io/badge/-BigQuery-669DF6?style=flat-square&logo=googlebigquery&logoColor=white)
 
 **Analytics & Machine Learning**
 ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
