@@ -38,7 +38,7 @@ End-to-end churn prediction pipeline: ingestion, feature engineering, model deve
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 **Testing & CI**
-![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?stle=flat-square&logo=githubactions&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![pytest](https://img.shields.io/badge/-pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
 ![Ruff](https://img.shields.io/badge/-Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black)
 
